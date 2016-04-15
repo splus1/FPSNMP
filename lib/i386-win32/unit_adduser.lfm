@@ -1,0 +1,25 @@
+object form_addUser: Tform_addUser
+  Left = 315
+  Height = 103
+  Top = 211
+  Width = 553
+  Caption = 'Add New User'
+  ClientHeight = 103
+  ClientWidth = 553
+  LCLVersion = '1.6.0.4'
+  object edit_new_user: TEdit
+    Left = 13
+    Height = 23
+    Top = 17
+    Width = 523
+    TabOrder = 0
+  end
+  object button_ok: TButton
+    Left = 456
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'OK'
+    TabOrder = 1
+  end
+end
